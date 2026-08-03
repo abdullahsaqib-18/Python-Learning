@@ -1,2 +1,119 @@
-a="A"
-print(ord(a))
+#variables
+sher="harsh bhai"
+
+#ruies
+
+SherianSchool="students"  #pascal case
+
+sherianSchool="students"  #camel case
+
+sherians_school="students" #snakes
+
+#data types
+
+a=12
+print(type(a))
+
+b=56.3
+c=12/3
+print(type(b))
+
+
+print(type(c))
+
+v=54
+
+print(type(v))
+
+st='2485 hjgk !@@##'
+
+print(type(st))
+
+d=True
+
+print(type(d))
+
+#if we use"True"
+
+e="True"
+
+print(type(e))
+
+#how to find Ascii value
+
+f="j"
+
+print(ord(f))
+
+g=12
+
+#string indexes
+
+print(chr(g))
+
+h="UNION"
+
+print(h[3])
+
+print(h[-3],h[3])
+
+i="Abdullah Saqib"
+
+print(i[0:9:1])
+
+j="Abdullah Saqib"
+
+print(j[9::1])
+
+k="Rehan tariq"
+
+print(k[2:4:1])
+
+#datype conversion
+
+l=12
+
+l=str(l)
+
+print(type(l))
+
+print(l)
+
+m="12"
+
+m=int(m)
+
+print(type(m))
+
+print(m)
+
+n=78
+
+print(bool(n))
+
+o=0
+
+print(bool(o))
+
+#input/output
+
+name="Ali"
+
+age="19"
+
+print(name,age)
+
+print("hello my name is",name,"and my age is",age)
+
+print(f"my name is {name} and my age is {age}")#formated string
+
+age=int(input("hello what is your name"))
+
+print(age)
+
+num=int(input("Enter a number"))
+
+age=int(input("My age is"))
+
+print(age)
+
