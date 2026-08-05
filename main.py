@@ -1,119 +1,113 @@
-#variables
-sher="harsh bhai"
 
-#ruies
+p=20
 
-SherianSchool="students"  #pascal case
+q=5
 
-sherianSchool="students"  #camel case
+print(p+q)
 
-sherians_school="students" #snakes
+print(p-q)
 
-#data types
+print(p*q)
 
-a=12
-print(type(a))
+print(p/q)
 
-b=56.3
-c=12/3
-print(type(b))
+print(p//q)
 
+print(4**3)
 
-print(type(c))
+print(32%5)
 
-v=54
+print(43+4/2)
 
-print(type(v))
+#assignment operator
 
-st='2485 hjgk !@@##'
+a=34
 
-print(type(st))
+#compound assignment operators
 
-d=True
+a=20
 
-print(type(d))
+a=a+20
 
-#if we use"True"
+a=a+40
 
-e="True"
+a=a+60
 
-print(type(e))
+print(a)
 
-#how to find Ascii value
+#we can also write in this way              #compound assignment operators are
+                                            #a-=,a+=,aa//=,a*=,a**=,a//=
+                                        
 
-f="j"
+a=20
 
-print(ord(f))
+a+=20
 
-g=12
+a+=40
 
-#string indexes
+a+=60
 
-print(chr(g))
+print(a)
 
-h="UNION"
+#comparison operators
+#comoarison gives true and fals result only
 
-print(h[3])
+a=14
 
-print(h[-3],h[3])
+b=14
 
-i="Abdullah Saqib"
+print(a==b)
 
-print(i[0:9:1])
+print(a!=b)
 
-j="Abdullah Saqib"
+c=45
 
-print(j[9::1])
+d=45.5
 
-k="Rehan tariq"
+print(c==d)
 
-print(k[2:4:1])
+print(c!=d)
 
-#datype conversion
+print(c<d)
 
-l=12
+print(c>d)
 
-l=str(l)
+#we can also use numbers to compare
 
-print(type(l))
+print(c<=d)
 
-print(l)
+print(45<=45)
 
-m="12"
+print(ord("A"))
+print(ord("B"))
 
-m=int(m)
+print("A"<="B")
 
-print(type(m))
+print("ABC"<"ACB")
 
-print(m)
+#WE CANNOT COMPARE AN INT VALUE TO A STRING
 
-n=78
+print(12>11 and 14<17 and 876>7)
 
-print(bool(n))
+print(12!=12 or 43<=42 or 67>65)
 
-o=0
+print(not 12==12)
 
-print(bool(o))
+#ifelse
+a=25
 
-#input/output
+if a>12:
 
-name="Ali"
+    print("i will do task A")
 
-age="19"
+else:
+    print("i will do task B")
 
-print(name,age)
+money=int(input("mama, give me money"))
 
-print("hello my name is",name,"and my age is",age)
-
-print(f"my name is {name} and my age is {age}")#formated string
-
-age=int(input("hello what is your name"))
-
-print(age)
-
-num=int(input("Enter a number"))
-
-age=int(input("My age is"))
-
-print(age)
+if money==10:
+    print("i will buy a choco bar icecream")
+else:
+    print("i will buy a mango dolly icecream")   
+    
 
