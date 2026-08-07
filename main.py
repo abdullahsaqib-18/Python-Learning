@@ -72,3 +72,74 @@
 # else:
 #     print("this is not a leap year")
 
+#example 5
+
+# t=int(input("enter temperature"))
+
+# if t<0:
+#     print("freezing cold")
+
+# elif t>=0 and t<10:
+#     print("very cold")
+
+# elif t>=10 and t<20:
+#     print("cold")
+
+# elif t>=20 and t<30:
+#     print("pleasent")
+
+# elif t>=30 and t<40:
+#     print("hot")
+
+# else:
+#     print("very hot")
+
+#loops
+
+#for loop
+
+# a=range(21)
+
+# for i in range(21):
+
+#     print(i)
+
+# for i in range(20,51,1):
+#     print(i)
+# for i in range(16,0,-1):
+#     print(i)
+
+# for i in range(-3,-16,-1):
+#     print(i)
+
+#lets print the table of 5
+
+# for i in range(5,51,5):
+#     print(i)
+
+
+# for i in range(3,31,3):
+#     print(i)
+
+# n=int(input("ente number"))
+# for i in range(n,(n*10+1),n):
+#     print(i)
+
+# a="hello"
+
+# print(a)
+# for i in range(5):
+#     print(i)
+
+# a="my name is abdullah saqib"
+# print(len(a))
+# for i in range(len(a)):
+#     print(i)
+
+# a="abdullah"
+# for i in a:
+#     print(i)
+
+#break continue else statament
+
+
