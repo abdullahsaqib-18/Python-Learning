@@ -140,6 +140,6 @@
 # for i in a:
 #     print(i)
 
-#break continue else statament
+#break continue and else statament
 
 
