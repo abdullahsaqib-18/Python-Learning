@@ -143,3 +143,9 @@
 #break continue and else statament
 
 
+for i in range(1,21):
+    if i==15:
+        print("break statement is executed")
+        continue
+    print(i)
+
