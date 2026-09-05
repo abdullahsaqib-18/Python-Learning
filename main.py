@@ -149,5 +149,5 @@ for i in range(1,21):
         continue
     print(i)
     
-    # Numpy libraries,Numpy Pandas,Metaploit lab
+    # Numpy libraries,Numpy Pandas,Metaploit libraries
 
