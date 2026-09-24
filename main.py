@@ -150,4 +150,8 @@ for i in range(1,21):
     print(i)
 # loops for looop while loop
 
-#Conditions
+#Conditional Statements
+
+# vs
+
+# Loop
