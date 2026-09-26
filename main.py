@@ -152,11 +152,4 @@ for i in range(1,21):
 
 #Conditional Statements
 
-# vs
-
-# Loop
-
-# Functions
-
-# Recursions
-
+# Metasploitlab
