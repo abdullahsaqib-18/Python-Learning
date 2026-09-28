@@ -148,12 +148,4 @@ for i in range(1,21):
         print("break statement is executed")
         continue
     print(i)
-# loops for looop while loop
-
-#Conditional Statements
-
-# Metasploitlab
-
-# Pytorch library
-
-# LLM
+    # Loop
